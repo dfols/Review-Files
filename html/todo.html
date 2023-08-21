@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Specifying character encoding for the document -->
+    <meta charset="UTF-8" />
+
+    <!-- Ensuring backward compatibility with older versions of IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Setting the viewport to control layout on mobile browsers -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Setting the title of the webpage -->
+    <title>Todo List</title>
+
+    <!-- Linking external CSS for styling the page -->
+    <link rel="stylesheet" href="../css/todo.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- Main heading of the webpage -->
+      <h1>Todo List</h1>
+
+      <!-- Description related to the main functionality of the page -->
+      <p>Add items to the todo list</p>
+    </header>
+    <div>
+      <!-- Input field to enter new tasks -->
+      <input id="task-input" type="text" placeholder="Enter task" />
+
+      <!-- Button to trigger the addition of new tasks to the todo list -->
+      <button id="add-button">Add</button>
+    </div>
+
+    <!-- Unordered list to display the todo items -->
+    <ul id="list"></ul>
+
+    <!-- Including the Axios library, a popular HTTP client to make asynchronous requests -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- Linking external JavaScript file for the page's functionality -->
+    <script src="../js/client/todo-script.js"></script>
+  </body>
+</html>

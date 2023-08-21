@@ -1,0 +1,80 @@
+/* CSS Reset */
+/* --------------------------------------- */
+/* This resets margin, padding and box-sizing to ensure consistency across different browsers. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+/* --------------------------------------- */
+body {
+  font-family: Arial, sans-serif; /* Default font for the entire document */
+}
+p {
+  margin-top: 5px;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block; /* Ensures the image is centered */
+}
+section {
+  margin: 20px;
+}
+
+/* Header Styles */
+/* --------------------------------------- */
+header {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Navigation Styles */
+/* --------------------------------------- */
+nav {
+  background-color: #e0e0e0;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Main content and footer styles */
+/* --------------------------------------- */
+main,
+footer {
+  padding: 20px;
+}
+
+/* Form styles */
+/* --------------------------------------- */
+form {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px; /* Centralized form with a defined width */
+}
+form input {
+  margin: 10px;
+}
+
+/* Additional styles can be added below */
+/* --------------------------------------- */
+/* etc. */

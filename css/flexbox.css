@@ -1,0 +1,63 @@
+/* CSS Reset */
+/* --------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+/* --------------------------------------- */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+/* --------------------------------------- */
+header {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Navigation Styles */
+/* --------------------------------------- */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  background-color: #e0e0e0;
+  padding: 15px 0;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Main Content & Footer Styles */
+/* --------------------------------------- */
+main,
+footer {
+  padding: 20px;
+}
+section {
+  margin: 20px;
+}
+
+/* Flex Container Styles */
+/* --------------------------------------- */
+#flexbox-example {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Flex Items Styles */
+/* --------------------------------------- */
+.flex-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}

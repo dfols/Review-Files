@@ -1,0 +1,86 @@
+/* Importing a custom font 'gameboy' */
+@font-face {
+  font-family: gameboy;
+  src: url(../assets/fonts/gameboy.ttf);
+}
+
+/* Global styles for the body element */
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: gameboy; /* Using the imported font */
+  font-size: large;
+  background-color: #282828;
+  box-sizing: border-box;
+}
+
+/* Styling for the header which contains the Pokedex title and subtitle */
+header {
+  display: flex;
+  text-align: center;
+  justify-content: start;
+  flex-direction: column; /* Stacking child elements vertically */
+  color: rgb(247, 245, 245);
+}
+
+/* Adjusting margin for subtitle to bring it closer to the title */
+h2 {
+  margin-top: 2px;
+}
+
+/* Container that will hold all the dynamically added Pokemon cards */
+#container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping of items to the next line if space runs out */
+  justify-content: space-around; /* Distributes items evenly with equal space around them */
+}
+
+/* Container for the buttons */
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Styles for each individual Pokemon card */
+.pokemon {
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+  background-color: #c6c6c6ee;
+  border-radius: 8px;
+}
+
+/* Styles for Pokemon images */
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Container to hold the Pokemon image */
+.img-container {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(247, 245, 245);
+  border-radius: 1px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+/* Styling for the Pokemon name */
+span {
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+/* Global button styling */
+button {
+  margin: 10px;
+}

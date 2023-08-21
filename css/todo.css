@@ -1,0 +1,67 @@
+/* General styles applied to the whole page */
+body {
+  /* Sets the default font for the webpage */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Resets default margin and padding values */
+  margin: 0px;
+  padding: 0px;
+  /* Uses flexbox to center content and align items in a column layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Sets a light gray background color */
+  background-color: #eeeeee;
+}
+
+/* Styling for the header section */
+header {
+  /* Adds a margin at the top */
+  margin-top: 10px;
+  /* Adds a padding around the content */
+  padding: 5px;
+  /* Centers the text */
+  text-align: center;
+}
+
+/* Styling for the todo list */
+#list {
+  /* Removes bullet points from the list items */
+  list-style-type: none;
+  /* Sets the width of the list */
+  width: 50%;
+  /* Resets default padding values */
+  padding: 0px;
+}
+
+/* Styling for each todo item */
+.item {
+  /* Uses flexbox to align content horizontally and center them */
+  display: flex;
+  align-items: center;
+  /* Sets the background color to white */
+  background-color: white;
+  /* Adds rounded corners */
+  border-radius: 5px;
+  /* Adds a padding around the content */
+  padding: 10px;
+  /* Adds a margin at the bottom of each item */
+  margin-bottom: 10px;
+}
+
+/* Styling for items that are marked as completed */
+.line-through {
+  /* Adds a line through the text */
+  text-decoration: line-through;
+}
+
+/* Styling for the checkbox inside each todo item */
+.checkbox {
+  /* Adds a margin to the right of the checkbox */
+  margin-right: 10px;
+}
+
+/* Styling for the delete button inside each todo item */
+.delete-button {
+  /* Pushes the button to the far right inside its container */
+  margin-left: auto;
+}
